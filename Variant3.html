@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#but1").click(function () {
+                $("[href]").hide();
+            });
+            $("#but2").click(function () {
+                $("[href]").show();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h2> Самостоятельная работа Вариант-3</h2>
+    <p class="href">Мой вариант</p>
+    <p class="href"><a href="http://learn.javascript.ru/">Современный учебник JavaScript</a></p>
+    <p class="href"><a href="http://www.jslint.com/">Проверка на правильность написания кода JavaScript</a></p>
+    <p class="href"><a href="https://www.w3schools.com/jsref/prop_loc_href.asp">Основы JavaScript</a></p>
+    <p class="href"><a href=" https://itchief.ru/javascript/working-with-numbers#id-0">JavaScript - Работа с числами</a></p>
+   
+    <button id="but1">Спрятать абзац</button>
+    <button id="but2">Показать абзац</button>
+
+</body>
+</html>
